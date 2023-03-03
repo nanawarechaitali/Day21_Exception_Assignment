@@ -17,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -38,7 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MoodAnalyserTest.givenHappyMood_shouldReturnSad">
+  <component name="RunManager" selected="Application.AnalyserMoodDemo">
     <configuration name="AnalyserMoodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.analyser.AnalyserMoodDemo" />
       <module name="MoodAnalyser" />
@@ -117,10 +120,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnalyserMoodDemo" />
         <item itemvalue="JUnit.MoodAnalyserTest.givenHappyMood_shouldReturnSad" />
         <item itemvalue="JUnit.MoodAnalyserTest.givenAnyMood_shouldReturnHappy" />
         <item itemvalue="JUnit.MoodAnalyserTest" />
-        <item itemvalue="Application.AnalyserMoodDemo" />
         <item itemvalue="JUnit.MoodAnalyserTest.givenSadMood_shouldReturnSad" />
       </list>
     </recent_temporary>
@@ -135,20 +138,5 @@
       <updated>1677813713651</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/com/bridgelabz/analyser/MoodAnalyserTest.java</url>
-          <line>20</line>
-          <properties class="com.bridgelabz.analyser.MoodAnalyserTest" method="givenHappyMood_shouldReturnSad">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

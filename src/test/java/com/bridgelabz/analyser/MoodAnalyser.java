@@ -7,15 +7,19 @@ public class MoodAnalyser {
     String analyseMood(String message){
         String stringArray[] = message.split(" ");
         String result = " ";
-        for(String var : stringArray){
-            if(var.equalsIgnoreCase("happy")){
-                result= "Happy";
-                break;
+        try {
+            for (String var : stringArray) {
+                if (var.equalsIgnoreCase("happy")) {
+                    result = "Happy";
+                    break;
 
-            }else if(var.equalsIgnoreCase("sad")){
-                result = "Sad";
-                break;
+                } else if (var.equalsIgnoreCase("sad")) {
+                    result = "Sad";
+                    break;
+                }
             }
+        }catch (NullPointerException e){
+            result = "Happy" ;
         }
         if(result.equals(" ")){
             result = "Happy" ;
