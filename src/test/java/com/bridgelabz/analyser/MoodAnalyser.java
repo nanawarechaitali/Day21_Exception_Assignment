@@ -8,6 +8,10 @@ public class MoodAnalyser {
         String stringArray[] = message.split(" ");
         String result = " ";
         try {
+            if(message == " "){
+                throw new MoodAnalysisException("Empty Mood");
+
+            }
             for (String var : stringArray) {
                 if (var.equalsIgnoreCase("happy")) {
                     result = "Happy";
@@ -20,6 +24,8 @@ public class MoodAnalyser {
             }
         }catch (NullPointerException e){
             result = "Happy" ;
+        }catch (MoodAnalysisException e){
+            return e.getMessage();
         }
         if(result.equals(" ")){
             result = "Happy" ;
